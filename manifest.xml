@@ -30,7 +30,7 @@
     />
     <project
         name        = "meta-tibidabo"
-        remote      = "github"
+        remote      = "architech-boards"
         revision    = "dora"
     />
 </manifest>
