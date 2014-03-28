@@ -16,17 +16,17 @@
     <project
         name        = "poky"
         remote      = "yoctoproject"
-        revision    = "dora"
+        revision    = "84c2763fa0bf08a83caa2c5ee532b5bef2ff918b"
     />
     <project
         name        = "meta-openembedded"
         remote      = "openembedded"
-        revision    = "dora"
+        revision    = "40e0f371f3eb1628655c484feac0cebf810737b4"
     />
     <project
         name        = "meta-fsl-arm"
         remote      = "yoctoproject"
-        revision    = "dora"
+        revision    = "fb1681666fac9c096314cd01242be4613b7ff140"
     />
     <project
         name        = "meta-tibidabo"
