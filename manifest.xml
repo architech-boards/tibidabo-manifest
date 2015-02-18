@@ -28,7 +28,10 @@
         name="fsl-release"
         fetch="git://git.freescale.com/imx"
     />
-
+    <remote
+        name = "architech-boards"
+        fetch = "https://github.com/architech-boards/"
+    />
 
     <project
         name = "poky"
@@ -75,4 +78,9 @@
         remote="fsl-release"
         revision="daisy_3.10.53-1.1.0_GA"
     />
+    <project
+        name = "meta-tibidabo"
+        remote = "architech-boards"
+        revision = "dizzy"
+/>
 </manifest>
