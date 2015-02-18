@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name = "openembedded"
+        fetch = "git://git.openembedded.org/"
+    />
+    <remote
+        name = "yoctoproject"
+        fetch = "git://git.yoctoproject.org/"
+    />
+    <remote
+        name = "architech-boards"
+        fetch = "https://github.com/architech-boards/"
+    />
+    <remote
+        name = "freescale"
+        fetch = "git://github.com/Freescale"
+    />
+    <remote
+        name="OSSystems"
+        fetch="git://github.com/OSSystems"
+    />
+    <remote
+        name="QT5"
+        fetch="git://github.com/meta-qt5"
+    />
+    <remote
+        name="fsl-release"
+        fetch="git://git.freescale.com/imx"
+    />
+
+
+    <project
+        name = "poky"
+        remote = "yoctoproject"
+        revision = "dizzy"
+    />
+    <project
+        name = "meta-openembedded"
+        remote = "openembedded"
+        revision = "dizzy"
+    />
+    <project 
+        name="meta-fsl-arm"
+        remote="yoctoproject" 
+        revision="9bc540eec9a7e280af13371ea70650fcc47ea627"
+    />
+    <project
+        name="fsl-community-bsp-base"
+        remote="freescale"
+        revision="914d5d1f9b6b4fd384e3cc1e82bf144efa6425c0"
+    />
+    <project
+        name="meta-fsl-arm-extra"
+        remote="freescale"
+        revision="e1085deb3d915d2a95a65cceadc77c6de0dadfb6"
+    />
+    <project
+        name="meta-fsl-demos"
+        remote="freescale"
+        revision="f141c7d1158b8addbd6f1ed047a1b47c2ed85f8f"
+    />
+    <project
+        name="meta-browser"
+        remote="OSSystems"
+        revision="63963cc56c8d0291779693e62b66cb16e5c86883"
+    />
+    <project
+        name="meta-qt5"
+        remote="QT5"
+        revision="c29c317e0f22202bfaa85329a580564bbc179089"
+    />
+    <project
+        name="meta-fsl-bsp-release"
+        remote="fsl-release"
+        revision="daisy_3.10.53-1.1.0_GA"
+    />
+</manifest>
