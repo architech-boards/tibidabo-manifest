@@ -49,11 +49,6 @@
         revision="9bc540eec9a7e280af13371ea70650fcc47ea627"
     />
     <project
-        name="fsl-community-bsp-base"
-        remote="freescale"
-        revision="914d5d1f9b6b4fd384e3cc1e82bf144efa6425c0"
-    />
-    <project
         name="meta-fsl-arm-extra"
         remote="freescale"
         revision="e1085deb3d915d2a95a65cceadc77c6de0dadfb6"
