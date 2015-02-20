@@ -71,7 +71,7 @@
     <project
         name="meta-fsl-bsp-release"
         remote="fsl-release"
-        revision="4ccf13efeef1c72768762921ba6e2c6537ed9f73"
+        revision="800702af8785d5a6a2ee9f43e3d5a9ecb650065c"
     />
     <project
         name = "meta-tibidabo"
