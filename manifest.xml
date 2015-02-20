@@ -36,12 +36,12 @@
     <project
         name = "poky"
         remote = "yoctoproject"
-        revision = "dizzy"
+        revision = "b630f2f53645fa8f5890b4732f251c354ad525a7"
     />
     <project
         name = "meta-openembedded"
         remote = "openembedded"
-        revision = "dizzy"
+        revision = "6413cdb66acf43059f94d0076ec9b8ad6a475b35"
     />
     <project 
         name="meta-fsl-arm"
